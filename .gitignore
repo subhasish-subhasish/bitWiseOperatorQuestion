@@ -1,0 +1,43 @@
+# This file specifies files and directories that should be ignored by Git.
+
+# Ignore temporary files and directories
+*.tmp
+*.log
+*.bak
+*.exe
+Thumbs.db
+
+# Ignore build artifacts
+build/
+Debug/
+Release/
+.vscode/
+
+# Ignore IDE-specific files
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.VC.db
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore executable files
+*.exe
+*.dll
+*.so
+
+# Ignore shared object files
+*.dylib
+
+# Ignore core dumps
+core
+
+# Ignore backup files
+*~
+# Ignore temporary files created by various tools
+*.swp
+.DS_Store
